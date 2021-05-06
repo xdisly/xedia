@@ -40,7 +40,7 @@
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer">
-                    Footer
+                    <a href="/logout" class="btn btn-danger">Выйти</a>
                 </div>
                 <!-- /.card-footer-->
             </div>
