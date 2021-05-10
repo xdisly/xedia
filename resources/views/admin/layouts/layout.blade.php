@@ -6,6 +6,11 @@
     <title>Панель администрирования</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <link rel="stylesheet" href="{{ asset('assets/admin/css/admin.css') }}">
+    <style>
+        .ck-editor__editable_inline {
+            min-height: 200px;
+        }
+    </style>
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
@@ -946,6 +951,94 @@
             $(this).closest('.has-treeview').addClass('menu-open');
         }
     });
+</script>
+
+<script src="{{ asset('assets/admin/ckeditor5/build/ckeditor.js') }}"></script>
+<script src="{{ asset('assets/admin/ckfinder/ckfinder.js') }}"></script>
+
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#description' ), {
+            toolbar: [ 'heading', '|', 'bold', 'italic', '|', 'undo', 'redo' ]
+        } )
+        .catch( function( error ) {
+            console.error( error );
+        } );
+
+    ClassicEditor
+        .create( document.querySelector( '#content' ), {
+            ckfinder: {
+                uploadUrl: '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files&responseType=json'
+            },
+            toolbar: {
+                items: [
+                    'heading',
+                    '|',
+                    'bold',
+                    'italic',
+                    'link',
+                    'bulletedList',
+                    'numberedList',
+                    '|',
+                    'outdent',
+                    'indent',
+                    'alignment',
+                    '|',
+                    'blockQuote',
+                    'insertTable',
+                    'CKFinder',
+                    'mediaEmbed',
+                    'undo',
+                    'redo'
+                ]
+            },
+            language: 'ru',
+            image: {
+                // Configure the available styles.
+                styles: [
+                    'alignLeft', 'alignCenter', 'alignRight'
+                ],
+
+                // Configure the available image resize options.
+                resizeOptions: [
+                    {
+                        name: 'resizeImage:original',
+                        label: 'Original',
+                        value: null
+                    },
+                    {
+                        name: 'resizeImage:50',
+                        label: '50%',
+                        value: '50'
+                    },
+                    {
+                        name: 'resizeImage:75',
+                        label: '75%',
+                        value: '75'
+                    }
+                ],
+
+                // You need to configure the image toolbar, too, so it shows the new style
+                // buttons as well as the resize buttons.
+                toolbar: [
+                    'imageStyle:alignLeft', 'imageStyle:alignCenter', 'imageStyle:alignRight',
+                    '|',
+                    'resizeImage',
+                    '|',
+                    'imageTextAlternative'
+                ]
+            },
+            table: {
+                contentToolbar: [
+                    'tableColumn',
+                    'tableRow',
+                    'mergeTableCells'
+                ]
+            },
+        } )
+        .catch( function( error ) {
+            console.error( error );
+        } );
 </script>
 
 </body>

@@ -1,0 +1,6 @@
+PhpStorm
+Open Server
+Node.js
+Install Laravel with Console Open Server
+Install Laravel Mix
+Install Eloquent-Sluggable
