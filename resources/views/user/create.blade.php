@@ -82,8 +82,6 @@
                     <!-- /.col -->
                 </div>
             </form>
-
-            <a href="#" class="text-center">Я уже зарегистирован, хочу войти</a>
         </div>
         <!-- /.form-box -->
     </div><!-- /.card -->
