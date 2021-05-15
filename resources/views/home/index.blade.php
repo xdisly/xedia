@@ -1,5 +1,7 @@
 @extends('layouts.layout')
 
+@section('title', 'Главная')
+
 @section('content')
 <!-- About Section Begin -->
 <section class="about-section spad">
@@ -192,10 +194,10 @@
                     <div class='col-lg-4 col-md-6 col-sm-6'>
                         <div class='blog__item'>
                             <div class='blog__text'>
-                                <h5>Название</h5>
+                                <h5><a href="/">Название</a></h5>
                                 <p>Описание</p>
                                 <ul>
-                                    <li><i class='fa fa-clock-o'></i>Дата</li>
+                                    <li><i class='fa fa-clock-o'></i> Дата</li>
                                 </ul>
                             </div>
                         </div>

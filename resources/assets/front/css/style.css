@@ -83,6 +83,10 @@ textarea:focus {
 	outline: none;
 }
 
+a {
+    color: #333a50;
+}
+
 a:hover,
 a:focus {
 	text-decoration: underline;
@@ -2020,10 +2024,9 @@ ol {
 	/*padding: 10px 10px 0px 10px;*/
 }
 
-.blog__item .blog__pic {
-	height: 150px;
-	position: relative;
-	border-radius: 10px;
+.blog__pic img {
+	border-radius: 10px 10px 0px 0px;
+    width: 100%;
 }
 
 .blog__item .blog__pic .label {

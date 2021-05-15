@@ -40,17 +40,17 @@
                             <td>
                                 <a href="{{ route('tags.edit', ['tag' => $tag->id]) }}"
                                    class="float-sm-left btn btn-success btn-sm mr-1">Редактировать</a>
-                                <form action="{{ route('tags.destroy', ['tag' => $tag->id]) }}" method="post" class="float-sm-left">
+                                <form action="{{ route('tags.destroy', ['tag' => $tag->id]) }}"
+                                      method="post" class="float-sm-left">
 
                                     @csrf
                                     @method('DELETE')
 
-                                    <button type="submit" class="btn btn-danger btn-sm mb-1" onclick="return confirm('Подтвердите удаление')">
+                                    <button type="submit" class="btn btn-danger btn-sm mb-1"
+                                            onclick="return confirm('Подтвердите удаление')">
                                         Удалить
                                     </button>
                                 </form>
-                                <!--<button type="submit" class="btn btn-danger btn-sm mb-1" onclick="return confirm('Подтвердите удаление')"></button>
-                           -->
                             </td>
                         </tr>
                         @endforeach

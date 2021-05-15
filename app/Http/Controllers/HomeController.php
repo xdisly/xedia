@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Post;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -11,9 +12,15 @@ class HomeController extends Controller
         return view('home.index');
     }
 
-    public function news()
+    public function show()
     {
-       return view('home.news');
+        $posts = Post::with('category')->orderBy('id','desc')->paginate(6);
+        return view('home.news', compact('posts'));
+    }
+
+    public function post($slug)
+    {
+       return view('home.post');
     }
 
     public function projects()

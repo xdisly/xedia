@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-    <!-- Head -->
     <meta charset="UTF-8">
     <meta name="description" content="Описание">
     <meta name="keywords" content="Xedia Project, интернет-проекты, медиа-проекты, выгодное размещение рекламы, сайты, проекты">
-    <meta name="viewport" content="width=device-width, i nitial-scale=1.0">
-    <title>Xedia Project</title>
-
-    <!-- Styles  -->
-    <!-- Icon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title') — Xedia Project</title>
     <link rel="icon" href="{{ asset ('assets/front/img/ico.png') }}" type="image/png">
-
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
-
-    <!-- Css Styles -->
     <link rel="stylesheet" href="{{ asset('assets/front/css/front.css') }}">
 </head>
-
 <body>
-<!-- Page Preloder -->
 <div id="preloder">
     <div class="loader"></div>
 </div>

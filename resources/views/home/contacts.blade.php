@@ -1,5 +1,7 @@
 @extends('layouts.layout')
 
+@section('title', 'Контакты')
+
 @section('content')
 <!-- Contact Section Begin -->
 <section class="contact-section spad">

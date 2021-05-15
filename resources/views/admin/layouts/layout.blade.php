@@ -21,7 +21,7 @@
 
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                <a class="nav-link" data-widget="pushmenu" data-enable-remember="true" href="#" role="button"><i class="fas fa-bars"></i></a>
             </li>
         </ul>
 
@@ -177,6 +177,7 @@
 <!-- ./wrapper -->
 
 <script src="{{ asset('assets/admin/js/admin.js') }}"></script>
+<!--
 <script>
     $('.nav-sidebar a').each(function(){
         let location = window.location.protocol + '//' + window.location.host + window.location.pathname;
@@ -187,6 +188,7 @@
         }
     });
 </script>
+-->
 
 <script src="{{ asset('assets/admin/ckeditor5/build/ckeditor.js') }}"></script>
 <script src="{{ asset('assets/admin/ckfinder/ckfinder.js') }}"></script>
