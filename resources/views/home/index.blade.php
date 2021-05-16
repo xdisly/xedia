@@ -159,7 +159,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="feature__item">
                     <h5>Интернет-проекты</h5>
-                    <p>Размещение рекламы на интернет-проектах: TopSoundboard</p>
+                    <p>Размещение рекламы на интернет-проектах: TopSoundboard, tvcube▢</p>
                     <div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="feature__item">
                     <h5>Медиа-проекты</h5>
-                    <p>Размещение рекламы на медиа-проектах: Телеканал Дождь, Q Channel</p>
+                    <p>Размещение рекламы на медиа-проектах: Q Channel</p>
                     <div>
                     </div>
                 </div>

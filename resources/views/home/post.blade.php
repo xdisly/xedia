@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('title', 'Новость_ID')
+@section('title', $post->title)
 
 @section('content')
 <!-- Hero -->
@@ -8,10 +8,23 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="news_page_name">
-                    <h2>Название</h2>
-                    <p>Описание</p>
-                    <p><i class='fa fa-clock-o'></i> Дата</p>
+                <div class="news_page_name news__text">
+                    <h2>{{ $post->title }}</h2>
+                    <p>{{ $post->description }}</p>
+                    <ul>
+                        <li><i class='fa fa-clock-o'></i> {{ $post->getPostDate() }}</li>
+                        <li><i class='far fa-eye'></i> {{ $post->view }}</li>
+                        <li><i class='far fa-sticky-note'></i> <a href="{{ route('categories.single', ['slug' =>
+$post->category->slug]) }}"> {{ $post->category->title }}</a></li>
+                        @if($post->tags->count())
+                            <li><i class='fas fa-paperclip'>
+                            @foreach($post->tags as $tag)
+                                <a href="{{ route('tags.single', ['slug' => $tag->slug]) }}">
+                            </i> {{ $tag->title }}</a>
+                            @endforeach
+                            </li>
+                        @endif
+                    </ul>
                 </div>
             </div>
         </div>
@@ -27,7 +40,7 @@
                     <div class='col-lg-12 col-md-12 col-sm-12'>
                         <div class='blog__item'>
                             <div class='blog__text'>
-                                <p>Текст</p>
+                                {!! $post->content !!}
                             </div>
                         </div>
                     </div>

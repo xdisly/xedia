@@ -26,11 +26,11 @@
                         <thead>
                         <tr>
                             <th style="width: 30px">#</th>
-                            <th style="width: 350px">Наименование</th>
+                            <th style="width: 325px">Наименование</th>
                             <th>Категория</th>
                             <th>Теги</th>
                             <th>Дата</th>
-                            <th style="width: 225px">Действия</th>
+                            <th style="width: 100px"></th>
                         </tr>
                         </thead>
                         <tbody>
@@ -43,16 +43,18 @@
                             <td>{{ $post->created_at }}</td>
                             <td>
                                 <a href="{{ route('posts.edit', ['post' => $post->id]) }}"
-                                   class="float-sm-left btn btn-success btn-sm mr-1">Редактировать</a>
-                                <form action="{{ route('posts.destroy', ['post' => $post->id]) }}"
-                                      method="post" class="float-sm-left">
-
+                                   class="btn btn-info btn-sm float-left mr-1">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </a>
+                                <form
+                                    action="{{ route('posts.destroy', ['post' => $post->id]) }}"
+                                    method="post" class="float-left">
                                     @csrf
                                     @method('DELETE')
-
-                                    <button type="submit" class="btn btn-danger btn-sm mb-1"
+                                    <button type="submit" class="btn btn-danger btn-sm"
                                             onclick="return confirm('Подтвердите удаление')">
-                                        Удалить
+                                        <i
+                                            class="fas fa-trash-alt"></i>
                                     </button>
                                 </form>
                             </td>

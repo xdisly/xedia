@@ -34,11 +34,19 @@
                                 <p>{{ $post->description }}</p>
                                 <ul>
                                     <li><i class='fa fa-clock-o'></i> {{ $post->getPostDate() }}</li>
-                                    <li><i class='far fa-eye'></i> {{ $post->views }}</li>
+                                    <li><i class='far fa-eye'></i> {{ $post->view }}</li>
                                 </ul>
                                 <ul>
                                 <li><i class='far fa-sticky-note'></i> <a href="{{ route('categories.single', ['slug' =>
 $post->category->slug]) }}"> {{ $post->category->title }}</a></li>
+                                    @if($post->tags->count())
+                                        <li><i class='fas fa-paperclip'>
+                                            @foreach($post->tags as $tag)
+                                                    <a href="{{ route('tags.single', ['slug' => $tag->slug]) }}">
+                                            </i> {{ $tag->title }}</a>
+                                            @endforeach
+                                        </li>
+                                    @endif
                                 </ul>
                             </div>
                         </div>

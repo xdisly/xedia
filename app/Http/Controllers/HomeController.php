@@ -20,7 +20,10 @@ class HomeController extends Controller
 
     public function post($slug)
     {
-       return view('home.post');
+       $post = Post::where('slug', $slug)->firstOrFail();
+       $post->view += 1;
+       $post->update();
+       return view('home.post', compact('post'));
     }
 
     public function projects()

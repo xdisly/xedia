@@ -64,7 +64,7 @@ h6 {
 }
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 	font-family: "Montserrat", sans-serif;
 	color: #333a50;
 	font-weight: 400;
@@ -170,11 +170,11 @@ ol {
 
 .primary-btn {
 	display: inline-block;
-	font-size: 15px;
+	font-size: 16px;
 	padding: 10px 25px 10px;
 	color: #ffffff;
 	background: #0091ff;
-	font-weight: 500;
+	font-weight: 400;
 	border-radius: 25px;
 	border: none;
 	transition: 0.5s;
@@ -196,11 +196,11 @@ ol {
 
 .button_2 {
 	display: inline-block;
-	font-size: 15px;
+	font-size: 16px;
 	padding: 10px 25px 10px;
 	color: #333a50;
 	background: #efefef;
-	font-weight: 500;
+	font-weight: 400;
 	border-radius: 20px;
 	border: none;
 	transition: 0.5s;
@@ -221,7 +221,7 @@ ol {
 }
 
 .site-btn {
-	font-size: 14px;
+	font-size: 16px;
 	color: #ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -236,7 +236,7 @@ ol {
 	font-weight: 500;
     color: #007bff;
     text-decoration: none;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 /* Preloder */
@@ -460,8 +460,8 @@ ol {
 
 .header__menu ul li a {
 	color: #333a50;
-	font-size: 14px;
-	font-weight: 500;
+	font-size: 16px;
+	font-weight: 400;
 	display: block;
 	padding: 0 3px;
 	position: relative;
@@ -603,7 +603,7 @@ ol {
 	height: 54px;
 	border: 2px solid #4c57d6;
 	border-radius: 50px;
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	padding-left: 20px;
 }
@@ -629,7 +629,7 @@ ol {
 }
 
 .register__text .register__form form .change__extension {
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	position: absolute;
 	top: 15px;
@@ -666,7 +666,7 @@ ol {
 	list-style: none;
 	cursor: pointer;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .register__text .register__form form .change__extension:before {
@@ -703,7 +703,7 @@ ol {
 	color: #4c57d6;
 	font-weight: 700;
 	margin-right: 62px;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .register__text .register__result ul li:last-child {
@@ -748,7 +748,7 @@ ol {
 }
 
 .services__item h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 700;
 	margin-bottom: 8px;
@@ -878,7 +878,7 @@ ol {
 }
 
 .pricing__item ul li {
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	line-height: 40px;
 	list-style: none;
@@ -961,7 +961,7 @@ ol {
 }
 
 .login_form form .input-list input {
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	width: 100%;
 	height: 50px;
@@ -1109,7 +1109,7 @@ ol {
 
 .work__item span {
 	display: block;
-	font-size: 14px;
+	font-size: 16px;
 	color: #4c57d6;
 	margin-bottom: 6px;
 	margin-top: 32px;
@@ -1199,7 +1199,7 @@ ol {
 }
 
 .footer__top-call h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 18px;
@@ -1215,7 +1215,7 @@ ol {
 }
 
 .footer__top-auth h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 20px;
@@ -1269,7 +1269,7 @@ ol {
 }
 
 .footer__text-widget h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 700;
 	/*text-transform: uppercase;*/
@@ -1281,7 +1281,7 @@ ol {
 }
 
 .footer__text-widget ul li a {
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	line-height: 30px;
 	text-decoration: none;
@@ -1302,7 +1302,7 @@ ol {
 
 .footer__text-widget .footer__widget-info li {
 	list-style: none;
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	line-height: 42px;
 	position: relative;
@@ -1317,7 +1317,7 @@ ol {
 }
 
 .footer__text-copyright {
-	font-size: 14px;
+	font-size: 16px;
 	color: #c4c4c4;
 	text-align: center;
 	padding: 25px 0;
@@ -1407,7 +1407,7 @@ ol {
 }
 
 .about__text .about__achievement .about__achieve__item p {
-	font-size: 14px;
+	font-size: 16px;
 	/*text-transform: uppercase;*/
 	color: #333a50;
 	margin-bottom: 0;
@@ -1437,7 +1437,7 @@ ol {
 }
 
 .feature__item h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 700;
 	margin-bottom: 10px;
@@ -1480,14 +1480,14 @@ ol {
 }
 
 .product__item .product__text h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 700;
 	margin-bottom: 5px;
 }
 
 .product__item .product__text span {
-	font-size: 14px;
+	font-size: 16px;
 	display: block;
 	color: #0091ff;
 	margin-bottom: 6px;
@@ -1495,7 +1495,7 @@ ol {
 
 .product__item .product__text .product__social a {
 	display: inline-block;
-	font-size: 20px;
+	font-size: 22px;
 	margin-right: 15px;
 }
 
@@ -1569,14 +1569,14 @@ ol {
 }
 
 .project__item .project__text h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 700;
 	margin-bottom: 5px;
 }
 
 .project__item .project__text span {
-	font-size: 14px;
+	font-size: 16px;
 	display: block;
 	color: #0091ff;
 	margin-bottom: 5px;
@@ -1584,7 +1584,7 @@ ol {
 
 .project__item .project__text .project__social a {
 	display: inline-block;
-	font-size: 20px;
+	font-size: 22px;
 	margin-right: 15px;
 }
 
@@ -1655,7 +1655,7 @@ ol {
 }
 
 .testimonial__item h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 100px;
 	margin-bottom: 5px;
@@ -1767,7 +1767,7 @@ ol {
 }
 
 .hosting__text .nav-tabs .nav-item .nav-link h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 700;
 }
@@ -1880,7 +1880,7 @@ ol {
 }
 
 .hosting__feature__table table .hosting__feature--info {
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	font-weight: 500;
 }
@@ -1927,7 +1927,7 @@ ol {
 .question__accordin .card-heading>a.active[aria-expanded=false]:after {
 	content: "L";
 	font-family: "ELegantIcons";
-	font-size: 14px;
+	font-size: 16px;
 	height: 15px;
 	width: 15px;
 	background: #4c57d6;
@@ -1940,7 +1940,7 @@ ol {
 .question__accordin .card-heading>a.active:after {
 	content: "K";
 	font-family: "ELegantIcons";
-	font-size: 14px;
+	font-size: 16px;
 	height: 15px;
 	width: 15px;
 	background: #4c57d6;
@@ -1950,7 +1950,7 @@ ol {
 }
 
 .question-form input {
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	width: 100%;
 	height: 50px;
@@ -1981,7 +1981,7 @@ ol {
 }
 
 .question-form textarea {
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	width: 100%;
 	height: 100px;
@@ -2054,7 +2054,7 @@ ol {
 }
 
 .blog__item .blog__text h5 a {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 700;
 	color: #333a50;
 	line-height: 27px;
@@ -2075,8 +2075,8 @@ ol {
 .blog__item .blog__text ul li {
 	list-style: none;
 	display: inline-block;
-	color: #666666;
-	font-size: 13px;
+	color: #333a50;
+	font-size: 15px;
 	margin-right: 20px;
 }
 
@@ -2088,6 +2088,24 @@ ol {
 	line-height: 30px;
 	text-align: center;
 	margin-right: 5px;
+}
+
+.blog__text img {
+   border-radius: 10px;
+}
+
+/*CkEditor*/
+
+.image-style-align-center {
+    text-align: center;
+}
+
+.image-style-align-left {
+    text-align: left;
+}
+
+.image-style-align-right {
+    text-align: right;
 }
 
 .load-more {
@@ -2134,7 +2152,7 @@ ol {
 
 .blog__sidebar .blog__sidebar__item .sidebar__social a {
 	display: inline-block;
-	font-size: 14px;
+	font-size: 16px;
 	color: #ffffff;
 	height: 46px;
 	width: 46px;
@@ -2228,7 +2246,7 @@ ol {
 	background: transparent;
 	border-radius: 10px;
 	padding-left: 20px;
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	width: 100%;
 	margin-bottom: 20px;
@@ -2350,7 +2368,7 @@ ol {
 
 .blog__details__social ul li a {
 	display: block;
-	font-size: 14px;
+	font-size: 16px;
 	color: #ffffff;
 	height: 46px;
 	width: 46px;
@@ -2494,7 +2512,7 @@ ol {
 }
 
 .blog__details__profile .blog__details__profile__text h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -2506,7 +2524,7 @@ ol {
 }
 
 .blog__details__profile .blog__details__profile__text .blog__details__profile__social a {
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	display: inline-block;
 	margin-right: 14px;
@@ -2534,7 +2552,7 @@ ol {
 }
 
 .blog__details__option .blog__details__option__item h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 700;
 	margin-bottom: 20px;
@@ -2624,7 +2642,7 @@ ol {
 }
 
 .blog__details__comment .blog__details__comment__list .blog__details__comment__item .blog__details__comment__text h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 700;
 	margin-bottom: 15px;
@@ -2649,7 +2667,7 @@ ol {
 }
 
 .blog__details__comment .blog__details__comment__list .blog__details__comment__item .blog__details__comment__text ul li i {
-	font-size: 14px;
+	font-size: 16px;
 	color: #4c57d6;
 	margin-right: 5px;
 }
@@ -2679,7 +2697,7 @@ ol {
 
 .contact__text p {
 	color: #333a50;
-	font-size: 15px;
+	font-size: 16px;
 	margin-bottom: 30px;
 }
 
@@ -2705,14 +2723,14 @@ ol {
 }
 
 .contact__text ul li h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #333a50;
 	font-weight: 700;
 	margin-bottom: 5px;
 }
 
 .contact__text ul li p {
-	font-size: 15px;
+	font-size: 16px;
 	color: #333a50;
 	margin-bottom: 0;
 }
@@ -2764,7 +2782,7 @@ ol {
 }
 
 .contact-form form .input-list input {
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	width: calc(50% - 23px);
 	height: 50px;
@@ -2796,7 +2814,7 @@ ol {
 }
 
 .contact-form form textarea {
-	font-size: 14px;
+	font-size: 16px;
 	color: #333a50;
 	width: 100%;
 	height: 130px;
@@ -2856,7 +2874,7 @@ ol {
 
 .text__error form input {
 	width: 100%;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 700;
 	padding-left: 30px;
 	height: 50px;
@@ -2916,6 +2934,14 @@ ol {
 .news_page_name p{
     color: #333a50;
     margin-bottom: 15px;
+}
+
+.news__text ul li {
+    list-style: none;
+    display: inline-block;
+    color: #333a50;
+    font-size: 15px;
+    margin-right: 20px;
 }
 
 /*Comments*/
@@ -3088,7 +3114,7 @@ ol {
 	}
 	.canvas__open {
 		display: block;
-		font-size: 20px;
+		font-size: 22px;
 		color: #000000;
 		height: 30px;
 		width: 30px;

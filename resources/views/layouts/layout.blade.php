@@ -14,9 +14,6 @@
 <div id="preloder">
     <div class="loader"></div>
 </div>
-
-<!-- Menu  -->
-<!-- Offcanvas Menu Begin -->
 <div class="offcanvas__menu__overlay"></div>
 <div class="offcanvas__menu__wrapper">
     <div class="canvas__close">
@@ -27,17 +24,11 @@
             <li class><a href="{{route('home')}}">Главная</a></li>
             <li class><a href="{{route('home.news')}}">Новости</a></li>
             <li class><a href="{{route('home.projects')}}">Проекты</a></li>
-            <!--
-            <li class><a href="/ad.php">Реклама</a></li>
-            -->
             <li class><a href="{{route('home.contacts')}}">Контакты</a></li>
         </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
 </div>
-<!-- Offcanvas Menu End -->
-
-<!-- Header Section Begin -->
 <header class="header-section header-normal">
     <div class="container">
         <div class="row">
@@ -62,11 +53,7 @@
         </div>
     </div>
 </header>
-<!-- Header End -->
-
-@yield('content')
-
-<!-- Footer Section Begin -->
+    @yield('content')
 <footer class="footer-section">
     <div class="set-bg">
         <div class="container">
@@ -106,11 +93,8 @@
         </div>
     </div>
 </footer>
-<!-- Footer Section End -->
-<!-- Plugins -->
 <script src="https://kit.fontawesome.com/a38b075292.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="{{ asset('assets/front/js/front.js') }}"></script>
 </body>
-
 </html>

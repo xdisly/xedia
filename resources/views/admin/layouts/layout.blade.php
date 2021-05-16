@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Панель администрирования</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="{{ asset ('assets/admin/img/ico.png') }}" type="image/png">
     <link rel="stylesheet" href="{{ asset('assets/admin/css/admin.css') }}">
     <style>
@@ -14,18 +15,13 @@
     </style>
 </head>
 <body class="hold-transition sidebar-mini">
-<!-- Site wrapper -->
 <div class="wrapper">
-    <!-- Navbar -->
     <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" data-widget="pushmenu" data-enable-remember="true" href="#" role="button"><i class="fas fa-bars"></i></a>
             </li>
         </ul>
-
-        <!-- Right navbar links -->
         <ul class="navbar-nav ml-auto">
 
             <li class="nav-item">
@@ -47,19 +43,12 @@
             </li>
         </ul>
     </nav>
-    <!-- /.navbar -->
-
-    <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
-        <!-- Brand Logo -->
         <a href="{{ url ('/') }}" target="_blank" class="brand-link">
             <img src="{{ asset ('assets/admin/img/logo.png') }}" class="brand-image elevation-3" style="opacity: .8">
             <span class="brand-text font-weight-light">»</span>
         </a>
-
-        <!-- Sidebar -->
         <div class="sidebar">
-            <!-- Sidebar user (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
                     <img src="{{ asset ('assets/admin/img/user_icon.png') }}" class="img-circle elevation-2" alt="User Image">
@@ -68,25 +57,8 @@
                     <a class="d-block">{{ Auth::user()->name }}</a>
                 </div>
             </div>
-
-            <!-- SidebarSearch Form
-            <div class="form-inline">
-                <div class="input-group" data-widget="sidebar-search">
-                    <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-                    <div class="input-group-append">
-                        <button class="btn btn-sidebar">
-                            <i class="fas fa-search fa-fw"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            -->
-
-            <!-- Sidebar Menu -->
             <nav class="mt-2">
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                    <!-- Add icons to the links using the .nav-icon class
-                         with font-awesome or any other icon font library -->
                     <li class="nav-item">
                         <a href="{{ route('admin.index') }}" class="nav-link">
                             <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -121,14 +93,9 @@
                     </li>
                 </ul>
             </nav>
-            <!-- /.sidebar-menu -->
         </div>
-        <!-- /.sidebar -->
     </aside>
-
-    <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-3">
@@ -155,29 +122,18 @@
                 </div>
             </div>
         </div>
-
-
         @yield('content')
     </div>
-    <!-- /.content-wrapper -->
-
     <footer class="main-footer">
         <div class="float-right d-none d-sm-block">
-            <b>Версия</b> 1.0
+            <p>Версия 1.0</p>
         </div>
-        <strong>Xedia Project © 2021</strong>
+        <p>Xedia Project &copy; <script>document.write(new Date().getFullYear());</script></p>
     </footer>
-
-    <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
     </aside>
-    <!-- /.control-sidebar -->
 </div>
-<!-- ./wrapper -->
-
 <script src="{{ asset('assets/admin/js/admin.js') }}"></script>
-<!--
 <script>
     $('.nav-sidebar a').each(function(){
         let location = window.location.protocol + '//' + window.location.host + window.location.pathname;
@@ -188,11 +144,8 @@
         }
     });
 </script>
--->
-
 <script src="{{ asset('assets/admin/ckeditor5/build/ckeditor.js') }}"></script>
 <script src="{{ asset('assets/admin/ckfinder/ckfinder.js') }}"></script>
-
 <script>
     ClassicEditor
         .create( document.querySelector( '#content' ), {
@@ -206,14 +159,11 @@
                     'bold',
                     'italic',
                     'link',
-                    'bulletedList',
-                    'numberedList',
                     '|',
                     'outdent',
                     'indent',
                     'alignment',
                     '|',
-                    'blockQuote',
                     'insertTable',
                     'CKFinder',
                     'mediaEmbed',
@@ -223,12 +173,9 @@
             },
             language: 'ru',
             image: {
-                // Configure the available styles.
                 styles: [
                     'alignLeft', 'alignCenter', 'alignRight'
                 ],
-
-                // Configure the available image resize options.
                 resizeOptions: [
                     {
                         name: 'resizeImage:original',
@@ -246,9 +193,6 @@
                         value: '75'
                     }
                 ],
-
-                // You need to configure the image toolbar, too, so it shows the new style
-                // buttons as well as the resize buttons.
                 toolbar: [
                     'imageStyle:alignLeft', 'imageStyle:alignCenter', 'imageStyle:alignRight',
                     '|',
@@ -269,13 +213,11 @@
             console.error( error );
         } );
 </script>
-
 <script>
     $(function () {
         bsCustomFileInput.init();
     });
 </script>
-
 </body>
 </html>
 
