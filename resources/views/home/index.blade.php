@@ -3,7 +3,6 @@
 @section('title', 'Главная')
 
 @section('content')
-<!-- About Section Begin -->
 <section class="about-section spad">
     <div class="container">
         <div class="row">
@@ -33,9 +32,6 @@
         </div>
     </div>
 </section>
-<!-- About Section End -->
-
-<!-- Project Section Begin -->
 <section class="project-section spad">
     <div class="container">
         <div class="row">
@@ -87,9 +83,6 @@
         </div>
     </div>
 </section>
-<!-- Project Section End -->
-
-<!-- Resources Section Begin -->
 <section class="resources-section spad">
     <div class="container">
         <div class="row">
@@ -138,9 +131,6 @@
         </div>
     </div>
 </section>
-<!-- Resources Section End -->
-
-<!-- Ad Section Begin -->
 <section class="resources-section">
     <div class="container">
         <div class="row">
@@ -176,9 +166,6 @@
     </div>
     </div>
 </section>
-<!-- Ad Section End -->
-
-<!-- News Section Begin -->
 <section class="blog-section spad">
     <div class="container">
         <div class="row">
@@ -212,5 +199,4 @@
         </div>
     </div>
 </section>
-<!-- News Section End -->
 @endsection

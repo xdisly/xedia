@@ -87,7 +87,7 @@
                         <a href="{{route('posts.index')}}" class="nav-link">
                             <i class="nav-icon fas fa-edit"></i>
                             <p>
-                                Записи
+                                Новости
                             </p>
                         </a>
                     </li>
@@ -220,4 +220,3 @@
 </script>
 </body>
 </html>
-

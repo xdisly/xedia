@@ -15,11 +15,9 @@
     <div class="register-logo">
         <b>Панель администрирования</b>
     </div>
-
     <div class="card">
         <div class="card-body register-card-body">
             <p class="login-box-msg">Авторизация</p>
-
             @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul class="list-unstyled">
@@ -29,16 +27,13 @@
                     </ul>
                 </div>
             @endif
-
             @if(session()->has('error'))
                 <div class="alert alert-danger">
                     {{ session('error') }}
                 </div>
             @endif
-
             <form action="{{ route('login') }}" method="post">
                 @csrf
-
                 <div class="input-group mb-3">
                     <input type="email" name="email" class="form-control" placeholder="Email">
                     <div class="input-group-append">
@@ -47,7 +42,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="input-group mb-3">
                     <input type="password" name="password" class="form-control" placeholder="Пароль">
                     <div class="input-group-append">
@@ -56,21 +50,15 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="row">
-                    <!-- /.col -->
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary btn-block">Войти</button>
                     </div>
-                    <!-- /.col -->
                 </div>
             </form>
         </div>
-        <!-- /.form-box -->
-    </div><!-- /.card -->
+    </div>
 </div>
-<!-- /.register-box -->
-
 <script src="{{ asset('assets/admin/js/admin.js') }}"></script>
 </body>
 </html>

@@ -1,24 +1,19 @@
 @extends('admin.layouts.layout')
 
 @section('content')
-        <!-- Content Header (Page header) -->
         <section class="content-header">
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-12">
-                        <h1>Новый тег</h1>
+                        <h1>Добавление тега</h1>
                     </div>
                 </div>
-            </div><!-- /.container-fluid -->
+            </div>
         </section>
-
-        <!-- Main content -->
         <section class="content">
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
-                            <!-- /.card-header -->
-
                             <form role="form" method="post" action="{{ route('tags.store') }}">
                                 @csrf
                                 <div class="card-body">
@@ -29,20 +24,12 @@
                                                placeholder="Название">
                                     </div>
                                 </div>
-                                <!-- /.card-body -->
-
                                 <div class="card-footer">
                                     <button type="submit" class="btn btn-primary">Сохранить</button>
                                 </div>
                             </form>
-
                         </div>
-                        <!-- /.card -->
-
                     </div>
-                    <!-- /.col -->
                 </div>
-                <!-- /.row -->
         </section>
-        <!-- /.content -->
 @endsection

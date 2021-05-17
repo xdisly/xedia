@@ -3,7 +3,6 @@
 @section('title', 'Новости')
 
 @section('content')
-    <!-- Hero -->
     <section class="about-section spad">
         <div class="container">
             <div class="row">
@@ -16,15 +15,13 @@
             </div>
         </div>
     </section>
-
-    <!-- News Section Begin -->
 <section class="blog-section spad">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="row">
+                    @foreach($posts as $post)
                     <div class='col-lg-4 col-md-6 col-sm-6'>
-                        @foreach($posts as $post)
                         <div class='blog__item'>
                             <div class='blog__pic'>
                             <img src="{{ $post->getImage() }}">
@@ -37,12 +34,14 @@
                                     <li><i class='far fa-eye'></i> {{ $post->view }}</li>
                                 </ul>
                                 <ul>
-                                <li><i class='far fa-sticky-note'></i> <a href="{{ route('categories.single', ['slug' =>
+                                <li><i class='far fa-sticky-note'></i> <a href="{{ route('home.category', ['slug' =>
 $post->category->slug]) }}"> {{ $post->category->title }}</a></li>
+                                </ul>
+                                <ul>
                                     @if($post->tags->count())
                                         <li><i class='fas fa-paperclip'>
                                             @foreach($post->tags as $tag)
-                                                    <a href="{{ route('tags.single', ['slug' => $tag->slug]) }}">
+                                                    <a href="{{ route('home.tag', ['slug' => $tag->slug]) }}">
                                             </i> {{ $tag->title }}</a>
                                             @endforeach
                                         </li>
@@ -50,13 +49,12 @@ $post->category->slug]) }}"> {{ $post->category->title }}</a></li>
                                 </ul>
                             </div>
                         </div>
-                        @endforeach
                     </div>
+                    @endforeach
                 </div>
                 {{ $posts->links() }}
             </div>
         </div>
     </div>
 </section>
-<!-- News Section End -->
 @endsection

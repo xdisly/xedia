@@ -3,7 +3,6 @@
 @section('title', 'Проекты')
 
 @section('content')
-    <!-- Hero -->
     <section class="about-section spad">
         <div class="container">
             <div class="row">
@@ -16,8 +15,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Project Section Begin -->
     <section class="project-section spad">
         <div class="container">
             <div class="row">
@@ -70,9 +67,6 @@
             </div>
         </div>
     </section>
-    <!-- Project Section End -->
-
-    <!-- Project Section Begin -->
     <section class="project-section spad">
         <div class="container">
             <div class="row">
@@ -122,5 +116,4 @@
             </div>
         </div>
     </section>
-    <!-- Project Section End -->
 @endsection

@@ -3,7 +3,6 @@
 @section('title', 'Контакты')
 
 @section('content')
-<!-- Contact Section Begin -->
 <section class="contact-section spad">
     <div class="container">
         <div class="row">
@@ -24,9 +23,6 @@
         </div>
     </div>
 </section>
-<!-- Contact Section End -->
-
-<!-- Feedback Form Begin -->
 <div class="contact-form spad">
     <div class="container">
         <div class="row">
@@ -45,5 +41,4 @@
         </div>
     </div>
 </div>
-<!-- Feedback Form End -->
 @endsection

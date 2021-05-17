@@ -14,11 +14,9 @@
     <div class="register-logo">
         <b>Панель администрирования</b>
     </div>
-
     <div class="card">
         <div class="card-body register-card-body">
             <p class="login-box-msg">Регистрация</p>
-
             @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul class="list-unstyled">
@@ -28,10 +26,8 @@
                     </ul>
                 </div>
             @endif
-
             <form action="{{ route('register.store') }}" method="post">
                 @csrf
-
                 <div class="input-group mb-3">
                     <input type="text" name="name" class="form-control" placeholder="Имя"
                     value="{{ old('name') }}">
@@ -41,7 +37,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="input-group mb-3">
                     <input type="email" name="email" class="form-control" placeholder="Email"
                            value="{{ old('email') }}">
@@ -51,7 +46,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="input-group mb-3">
                     <input type="password" name="password" class="form-control" placeholder="Пароль">
                     <div class="input-group-append">
@@ -60,7 +54,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="input-group mb-3">
                     <input type="password" name="password_confirmation" class="form-control" placeholder="Повторите пароль">
                     <div class="input-group-append">
@@ -69,21 +62,15 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="row">
-                    <!-- /.col -->
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary btn-block">Зарегистрироваться</button>
                     </div>
-                    <!-- /.col -->
                 </div>
             </form>
         </div>
-        <!-- /.form-box -->
-    </div><!-- /.card -->
+    </div>
 </div>
-<!-- /.register-box -->
-
 <script src="{{ asset('assets/admin/js/admin.js') }}"></script>
 </body>
 </html>

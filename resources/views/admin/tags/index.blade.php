@@ -1,7 +1,6 @@
 @extends('admin.layouts.layout')
 
 @section('content')
-        <!-- Content Header (Page header) -->
         <section class="content-header">
             <div class="container-fluid">
                 <div class="row mb-2">
@@ -9,15 +8,10 @@
                         <h1>Теги</h1>
                     </div>
                 </div>
-            </div><!-- /.container-fluid -->
+            </div>
         </section>
-
-        <!-- Main content -->
         <section class="content">
-
-            <!-- Default box -->
             <div class="card">
-
                 <div class="card-body">
                     <a href="{{route('tags.create')}}" class="btn btn-primary mb-3">Добавить тег</a>
                     @if (count($tags))
@@ -58,12 +52,9 @@
                     </table>
                         </div>
                 </div>
-
 @else
 <p>Добавленных тегов пока нет</p>
 @endif
-
-                <!-- /.card-body -->
                 <div class="card-footer clearfix">
                     {{ $tags->links() }}
                     <!--
@@ -76,11 +67,6 @@
                     </ul>
                     -->
                 </div>
-                <!-- /.card-footer-->
             </div>
-            <!-- /.card -->
-
         </section>
-        <!-- /.content -->
 @endsection
-

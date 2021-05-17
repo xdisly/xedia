@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/news', 'HomeController@show')->name('home.news');
 Route::get('/news/{slug}', 'HomeController@post')->name('home.post');
-Route::get('/news/category/{slug}', 'CategoryController@show')->name('categories.single');
-Route::get('/news/tag/{slug}', 'TagController@show')->name('tags.single');
+Route::get('/news/category/{slug}', 'HomeController@category')->name('home.category');
+Route::get('/news/tag/{slug}', 'HomeController@tag')->name('home.tag');
 Route::get('/projects', 'HomeController@projects')->name('home.projects');
 Route::get('/contacts', 'HomeController@contacts')->name('home.contacts');
 

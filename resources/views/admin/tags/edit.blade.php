@@ -1,7 +1,6 @@
 @extends('admin.layouts.layout')
 
 @section('content')
-    <!-- Content Header (Page header) -->
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
@@ -9,16 +8,12 @@
                     <h1>Редактирование тега "{{ $tag->title }}"</h1>
                 </div>
             </div>
-        </div><!-- /.container-fluid -->
+        </div>
     </section>
-
-    <!-- Main content -->
     <section class="content">
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <!-- /.card-header -->
-
                         <form role="form" method="post" action="{{ route('tags.update', ['tag' => $tag->id]) }}">
                             @csrf
                             @method('PUT')
@@ -30,20 +25,12 @@
                                            value="{{ $tag->title }}">
                                 </div>
                             </div>
-                            <!-- /.card-body -->
-
                             <div class="card-footer">
                                 <button type="submit" class="btn btn-primary">Сохранить</button>
                             </div>
                         </form>
-
                     </div>
-                    <!-- /.card -->
-
                 </div>
-                <!-- /.col -->
             </div>
-            <!-- /.row -->
     </section>
-    <!-- /.content -->
 @endsection
