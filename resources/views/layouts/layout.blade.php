@@ -25,6 +25,7 @@
             <li class><a href="{{route('home.news')}}">Новости</a></li>
             <li class><a href="{{route('home.projects')}}">Проекты</a></li>
             <li class><a href="{{route('home.contacts')}}">Контакты</a></li>
+            <li class><a href="{{route('home.search')}}"><i class="fas fa-search"></i></a></li>
         </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
@@ -44,6 +45,7 @@
                         <li class><a href="{{route('home.news')}}">Новости</a></li>
                         <li class><a href="{{route('home.projects')}}">Проекты</a></li>
                         <li class><a href="{{route('home.contacts')}}">Контакты</a></li>
+                        <li class><a href="{{route('home.search')}}"><i class="fas fa-search"></i></a></li>
                     </ul>
                 </nav>
             </div>

@@ -42,7 +42,7 @@
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="section-btn">
-                    <a href="/" class="primary-btn">Перейти</a>
+                    <a href="{{route('home.projects')}}" class="primary-btn">Узнать подробнее</a>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="section-btn">
-                    <a href="/" class="primary-btn">Перейти</a>
+                    <a href="{{route('home.projects')}}" class="primary-btn">Узнать подробнее</a>
                 </div>
             </div>
         </div>
@@ -131,6 +131,7 @@
         </div>
     </div>
 </section>
+<!--
 <section class="resources-section">
     <div class="container">
         <div class="row">
@@ -141,7 +142,7 @@
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="section-btn">
-                    <a href="/" class="primary-btn">Перейти</a>
+                    <a href="#" class="primary-btn">Узнать подробнее</a>
                 </div>
             </div>
         </div>
@@ -166,6 +167,7 @@
     </div>
     </div>
 </section>
+!-->
 <section class="blog-section spad">
     <div class="container">
         <div class="row">
@@ -174,29 +176,36 @@
                     <h3>Новости</h3>
                 </div>
             </div>
-        </div>
-        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <div class="section-btn">
+                    <a href="{{route('home.news')}}" class="primary-btn">Все новости</a>
+                </div>
+            </div>
             <div class="col-lg-12">
                 <div class="row">
-                    <div class='col-lg-4 col-md-6 col-sm-6'>
-                        <div class='blog__item'>
-                            <div class='blog__text'>
-                                <h5><a href="/">Название</a></h5>
-                                <p>Описание</p>
-                                <ul>
-                                    <li><i class='fa fa-clock-o'></i> Дата</li>
-                                </ul>
+                    @foreach($posts as $post)
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="blog__item myshadow">
+                                <div class="blog__pic">
+                                    <img src="{{ $post->getImage() }}">
+                                    <div class="label"><a href="{{ route('home.category', ['slug' =>
+$post->category->slug]) }}"> {{ $post->category->title }}</a></div>
+                                </div>
+                                <div class="blog__text">
+                                    <h5><a href="{{ route('home.post', ['slug' => $post->slug]) }}">{{ $post->title }}</a></h5>
+                                    <p>{{ $post->description }}</p>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i> {{ $post->getPostDate() }}</li>
+                                        <li><i class="far fa-eye"></i> {{ $post->view }}</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    @endforeach
+                </div>
                 </div>
             </div>
-            <div class="col-lg-12">
-                <div class="load-more">
-                    <a href="/" class="button_2">Все новости</a>
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
 </section>
 @endsection

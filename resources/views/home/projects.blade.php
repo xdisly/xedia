@@ -42,9 +42,11 @@
                             </div>
                         </div>
                     </div>
+                    <!--
                     <div class="section-btn">
                         <a href="/" class="primary-btn">О проекте</a>
                     </div>
+                    !-->
                 </div>
                 <div class="col-lg-12">
                     <div class="project__item">
@@ -60,9 +62,11 @@
                             </div>
                         </div>
                     </div>
+                    <!--
                     <div class="section-btn">
                         <a href="/" class="primary-btn">О проекте</a>
                     </div>
+                    !-->
                 </div>
             </div>
         </div>
@@ -91,9 +95,11 @@
                             </div>
                         </div>
                     </div>
+                    <!--
                     <div class="section-btn">
                         <a href="/" class="primary-btn">О проекте</a>
                     </div>
+                    !-->
                 </div>
                 <div class="col-lg-12">
                     <div class="project__item">
@@ -109,9 +115,11 @@
                             </div>
                         </div>
                     </div>
+                    <!--
                     <div class="section-btn">
                         <a href="/" class="primary-btn">О проекте</a>
                     </div>
+                    !-->
                 </div>
             </div>
         </div>

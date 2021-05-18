@@ -3005,29 +3005,38 @@ ol {
     margin-right: 20px;
 }
 
+/* Search */
 
-
-/*Comments*/
-
-
-.comment_note {
-	background: #f5f5f5;
-	padding: 20px;
-	margin-top: 25px;
-	position: relative;
+.search-section {
+    padding-bottom: 0;
 }
 
-.comment_note h4 {
-	font-weight: 700;
-	font-size: 18px;
-	color: #333a50;
-	position: relative;
+.search__text {
+    margin-bottom: 30px;
 }
 
-.comment_note text {
-	font-size: 16px;
-	color: #333a50;
-	position: relative;
+.search-section form .input-list {
+    margin-right: -20px;
+    overflow: hidden;
+}
+
+.search-section form .input-list input {
+    font-size: 16px;
+    color: #333a50;
+    width: calc(100% - 23px);
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.search-section h3 {
+    color: #333a50;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 22px;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/

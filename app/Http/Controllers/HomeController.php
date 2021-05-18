@@ -11,10 +11,11 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('home.index');
+        $posts = Post::with('category')->orderBy('id','desc')->paginate(3);
+        return view('home.index', compact('posts'));
     }
 
-    public function show()
+    public function news()
     {
         $posts = Post::with('category')->orderBy('id','desc')->paginate(6);
         return view('home.news', compact('posts'));
@@ -40,6 +41,11 @@ class HomeController extends Controller
         $tag = Tag::where('slug', $slug)->firstOrFail();
         $posts = $tag->posts()->with('category')->orderBy('id', 'desc')->paginate(2);
         return view('home.tag', compact('tag', 'posts'));
+    }
+
+    public function search()
+    {
+        return view('home.search');
     }
 
     public function projects()
