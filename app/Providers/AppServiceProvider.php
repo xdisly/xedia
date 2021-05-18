@@ -2,6 +2,9 @@
 
 namespace App\Providers;
 
+use App\Category;
+use App\Post;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +26,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        view()->composer('home.news', function ($view) {
+            $view->with('popular_posts', Post::orderBy('view', 'desc')->limit(3)->get()
+            );
+            $view->with('cats', Category::withCount('posts')->orderBy('posts_count', 'desc')->get());
+        });
     }
 }
