@@ -30,6 +30,8 @@ class MailSender extends Mailable
      */
     public function build()
     {
-        return $this->view('home.send');
+        return $this->from('contact@xedia.ru', 'Xedia Project')
+            ->subject('Обратная связь')
+            ->view('home.send');
     }
 }

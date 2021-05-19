@@ -6,7 +6,6 @@
 </head>
 <body>
     <img src="{{ $message->embed(url('/email/logo.png')) }}">
-    <h3>Отправлено через форму обратной связи</h3>
     {!! $body !!}
 </body>
 </html>
