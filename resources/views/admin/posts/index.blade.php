@@ -5,7 +5,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-12">
-                        <h1>Новости</h1>
+                        <h1>Записи</h1>
                     </div>
                 </div>
             </div>
@@ -13,7 +13,7 @@
         <section class="content">
             <div class="card">
                 <div class="card-body">
-                    <a href="{{route('posts.create')}}" class="btn btn-primary mb-3">Добавить новость</a>
+                    <a href="{{route('posts.create')}}" class="btn btn-primary mb-3">Добавить запись</a>
                     @if (count($posts))
                         <div class="table-responsive">
                         <table class="table table-bordered table-hover table-nowrap">
@@ -59,7 +59,7 @@
                         </div>
                 </div>
 @else
-<p>Добавленных новостей пока нет</p>
+<p>Добавленных записей пока нет</p>
 @endif
                 <div class="card-footer clearfix">
                     {{ $posts->links() }}

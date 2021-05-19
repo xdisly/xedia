@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1>Редактирование новости "{{ $post->title }}"</h1>
+                    <h1>Редактирование записи "{{ $post->title }}"</h1>
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@
     <nav class="offcanvas__menu mobile-menu">
         <ul>
             <li class><a href="{{route('home')}}">Главная</a></li>
-            <li class><a href="{{route('home.news')}}">Новости</a></li>
+            <li class><a href="{{route('home.blog')}}">Блог</a></li>
             <li class><a href="{{route('home.projects')}}">Проекты</a></li>
             <li class><a href="{{route('home.contacts')}}">Контакты</a></li>
             <li class><a href="{{route('home.search')}}"><i class="fas fa-search"></i></a></li>
@@ -42,7 +42,7 @@
                 <nav class="header__menu">
                     <ul>
                         <li class><a href="{{route('home')}}">Главная</a></li>
-                        <li class><a href="{{route('home.news')}}">Новости</a></li>
+                        <li class><a href="{{route('home.blog')}}">Блог</a></li>
                         <li class><a href="{{route('home.projects')}}">Проекты</a></li>
                         <li class><a href="{{route('home.contacts')}}">Контакты</a></li>
                         <li class><a href="{{route('home.search')}}"><i class="fas fa-search"></i></a></li>
@@ -82,7 +82,7 @@
                     <div class="footer__text-widget">
                         <h5>Xedia Project</h5>
                         <ul>
-                            <li class><a href="{{route('home.news')}}">Новости</a></li>
+                            <li class><a href="{{route('home.blog')}}">Блог</a></li>
                             <li class><a href="{{route('home.projects')}}">Проекты</a></li>
                             <li class><a href="{{route('home.contacts')}}">Контакты</a></li>
                         </ul>

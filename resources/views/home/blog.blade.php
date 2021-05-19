@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('title', 'Новости')
+@section('title', 'Блог')
 
 @section('content')
     <section class="about-section spad">
@@ -8,8 +8,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="about__text">
-                        <h2>Новости</h2>
-                        <p>Новости Xedia Project</p>
+                        <h2>Блог</h2>
+                        <p>Блог Xedia Project</p>
                     </div>
                 </div>
             </div>

@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index')->name('home');
-Route::get('/news', 'HomeController@news')->name('home.news');
-Route::get('/news/{slug}', 'HomeController@post')->name('home.post');
-Route::get('/news/category/{slug}', 'HomeController@category')->name('home.category');
-Route::get('/news/tag/{slug}', 'HomeController@tag')->name('home.tag');
+Route::get('/blog', 'HomeController@blog')->name('home.blog');
+Route::get('/blog/{slug}', 'HomeController@post')->name('home.post');
+Route::get('/blog/category/{slug}', 'HomeController@category')->name('home.category');
+Route::get('/blog/tag/{slug}', 'HomeController@tag')->name('home.tag');
 Route::get('/search', 'HomeController@search')->name('home.search');
 Route::get('/searching', 'SearchController@index')->name('home.searching');
 

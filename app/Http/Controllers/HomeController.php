@@ -15,10 +15,10 @@ class HomeController extends Controller
         return view('home.index', compact('posts'));
     }
 
-    public function news()
+    public function blog()
     {
         $posts = Post::with('category')->orderBy('id','desc')->paginate(6);
-        return view('home.news', compact('posts'));
+        return view('home.blog', compact('posts'));
     }
 
     public function post($slug)

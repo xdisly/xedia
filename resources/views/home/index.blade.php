@@ -173,12 +173,12 @@
         <div class="row">
             <div class="col-lg-8 col-md-8">
                 <div class="section-title normal-title">
-                    <h3>Новости</h3>
+                    <h3>Блог</h3>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="section-btn">
-                    <a href="{{route('home.news')}}" class="primary-btn">Все новости</a>
+                    <a href="{{route('home.blog')}}" class="primary-btn">Все записи</a>
                 </div>
             </div>
             <div class="col-lg-12">
