@@ -26,7 +26,7 @@ use Monolog\Logger;
  * not older than $time seconds, the new log record is discarded. If no log record is new, the
  * whole data set is discarded.
  *
- * This is mainly useful in combination with Mail handlers or things like Slack or HipChat handlers
+ * This is mainly useful in combination with MailSender handlers or things like Slack or HipChat handlers
  * that send messages to people, to avoid spamming with the same message over and over in case of
  * a major component failure like a database server being down which makes all requests fail in the
  * same way.

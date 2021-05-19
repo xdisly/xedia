@@ -949,12 +949,6 @@ ol {
 	visibility: hidden;
 }
 
-.contact-form h3 {
-	color: #333a50;
-	font-weight: 700;
-	margin-bottom: 25px;
-}
-
 .login_form form .input-list {
 	overflow: hidden;
 }
@@ -2814,7 +2808,7 @@ ol {
 .contact-form h3 {
 	color: #333a50;
 	font-weight: 700;
-	margin-bottom: 25px;
+	margin-bottom: 22px;
 }
 
 .contact-form form .input-list {
@@ -2885,6 +2879,10 @@ ol {
 
 .contact-form form textarea::placeholder {
 	color: #333a50;
+}
+
+.contact-form p {
+    margin-bottom: 25px;
 }
 
 /*---------------------

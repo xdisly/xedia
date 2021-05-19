@@ -18,11 +18,13 @@ Route::get('/blog', 'HomeController@blog')->name('home.blog');
 Route::get('/blog/{slug}', 'HomeController@post')->name('home.post');
 Route::get('/blog/category/{slug}', 'HomeController@category')->name('home.category');
 Route::get('/blog/tag/{slug}', 'HomeController@tag')->name('home.tag');
+
 Route::get('/search', 'HomeController@search')->name('home.search');
 Route::get('/searching', 'SearchController@index')->name('home.searching');
 
+Route::match(['GET','POST'], '/contacts', 'ContactController@send')->name('home.contacts');
+
 Route::get('/projects', 'HomeController@projects')->name('home.projects');
-Route::get('/contacts', 'HomeController@contacts')->name('home.contacts');
 
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'admin'], function () {
     Route::get('/', 'MainController@index')->name('admin.index');
