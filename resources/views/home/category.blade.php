@@ -32,7 +32,7 @@ $post->category->slug]) }}"> {{ $post->category->title }}</a></div>
                                         <h5><a href="{{ route('home.post', ['slug' => $post->slug]) }}">{{ $post->title }}</a></h5>
                                         <p>{{ $post->description }}</p>
                                         <ul>
-                                            <li><i class="fa fa-clock-o"></i> {{ $post->getPostDate() }}</li>
+                                            <li><i class="fa fa-clock-o"></i> {{ Date::parse($post->created_at)->format('j F Y г.') }}</li>
                                             <li><i class="far fa-eye"></i> {{ $post->view }}</li>
                                         </ul>
                                     </div>
