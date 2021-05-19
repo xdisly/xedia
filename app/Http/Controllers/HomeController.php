@@ -45,7 +45,7 @@ class HomeController extends Controller
 
     public function search()
     {
-        return view('home.search');
+        return view('search.index');
     }
 
     public function projects()

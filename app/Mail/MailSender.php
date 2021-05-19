@@ -32,6 +32,6 @@ class MailSender extends Mailable
     {
         return $this->from('contact@xedia.ru', 'Xedia Project')
             ->subject('Обратная связь')
-            ->view('home.send');
+            ->view('feedback.send');
     }
 }

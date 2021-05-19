@@ -19,8 +19,8 @@ Route::get('/blog/{slug}', 'HomeController@post')->name('home.post');
 Route::get('/blog/category/{slug}', 'HomeController@category')->name('home.category');
 Route::get('/blog/tag/{slug}', 'HomeController@tag')->name('home.tag');
 
-Route::get('/search', 'HomeController@search')->name('home.search');
-Route::get('/searching', 'SearchController@index')->name('home.searching');
+Route::get('/search', 'HomeController@search')->name('search.index');
+Route::get('/searching', 'SearchController@index')->name('search.searching');
 
 Route::match(['GET','POST'], '/contacts', 'ContactController@send')->name('home.contacts');
 
