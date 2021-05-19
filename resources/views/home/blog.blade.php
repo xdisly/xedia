@@ -43,7 +43,7 @@ $post->category->slug]) }}"> {{ $post->category->title }}</a></div>
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="blog__popular spad">
-                            <h3>Популярные новости</h3>
+                            <h3>Часто просматриваемые записи</h3>
                         </div>
                     </div>
                     @foreach($popular_posts as $post)
