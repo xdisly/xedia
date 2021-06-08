@@ -17,13 +17,13 @@
                             <p>Интернет-проекта</p>
                         </div>
                         <div class="about__achieve__item">
-                            <span class="fa fa-play-circle-o"></span>
+                            <span class="fa fa-play"></span>
                             <h4 class="achieve-counter">2</h4>
                             <p>Медиа-проекта</p>
                         </div>
                         <div class="about__achieve__item">
                                 <span class="fa fa-ad">
-                                <h4 class="achieve-counter">3</h4>
+                                <h4 class="achieve-counter">4</h4>
                                 <p>Рекламные площадки</p>
                         </div>
                     </div>
