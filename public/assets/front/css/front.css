@@ -1325,7 +1325,7 @@ a:hover,
 a:focus {
 	text-decoration: underline;
 	outline: none;
-	color: #0091ff;
+	color: #007eff;
 }
 
 ul,
@@ -1407,7 +1407,7 @@ ol {
 	font-size: 16px;
 	padding: 10px 25px 10px;
 	color: #ffffff;
-	background: #0091ff;
+	background: #007eff;
 	font-weight: 400;
 	border-radius: 25px;
 	border: none;
@@ -1468,7 +1468,7 @@ ol {
 
 .s-btn {
 	font-weight: 500;
-    color: #007bff;
+    color: #007eff;
     text-decoration: none;
 	font-size: 16px;
 }
@@ -1502,19 +1502,19 @@ ol {
 	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
-		border: 4px solid #007bff;
+		border: 4px solid #007eff;
 		border-left-color: transparent;
 	}
 	50% {
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
-		border: 4px solid #007bff;
+		border: 4px solid #007eff;
 		border-left-color: transparent;
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
-		border: 4px solid #007bff;
+		border: 4px solid #007eff;
 		border-left-color: transparent;
 	}
 }
@@ -1522,17 +1522,17 @@ ol {
 @-webkit-keyframes loader {
 	0% {
 		-webkit-transform: rotate(0deg);
-		border: 4px solid #007bff;
+		border: 4px solid #007eff;
 		border-left-color: transparent;
 	}
 	50% {
 		-webkit-transform: rotate(180deg);
-		border: 4px solid #007bff;
+		border: 4px solid #007eff;
 		border-left-color: transparent;
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
-		border: 4px solid #007bff;
+		border: 4px solid #007eff;
 		border-left-color: transparent;
 	}
 }
@@ -1623,7 +1623,7 @@ ol {
 
 .header__logo {
 	padding-top: 30px;
-	max-width: 40%;
+	max-width: 48%;
 }
 
 .header__logo a {
@@ -1709,7 +1709,7 @@ ol {
 	bottom: 0.1px;
 	width: 100%;
 	height: 0%;
-	background: #0091ffa6;
+	background: #007effa6;
 	content: "";
 	z-index: -1;
 	-webkit-transition: all 0.3s;
@@ -2008,7 +2008,7 @@ ol {
 }
 
 .pricing__swipe-btn {
-	border: 1px solid #0091ff;
+	border: 1px solid #007eff;
 	border-radius: 50px;
 	height: 52px;
 	width: 266px;
@@ -2031,7 +2031,7 @@ ol {
 }
 
 .pricing__swipe-btn label.active {
-	background: #0091ff;
+	background: #007eff;
 	color: #ffffff;
 }
 
@@ -2174,7 +2174,7 @@ ol {
 }
 
 .login_form-btn label.active {
-	background: #0091ff;
+	background: #007eff;
 	color: #ffffff;
 }
 
@@ -2537,7 +2537,7 @@ ol {
 }
 
 .footer__text-widget .footer__widget-info li span {
-	color: #0091ff;
+	color: #007eff;
 	position: absolute;
 	left: 0;
 	top: 14px;
@@ -2624,7 +2624,7 @@ ol {
 
 .about__text .about__achievement .about__achieve__item span {
 	font-size: 30px;
-	color: #0091ff;
+	color: #007eff;
 }
 
 .about__text .about__achievement .about__achieve__item h4 {
@@ -2716,7 +2716,7 @@ ol {
 .product__item .product__text span {
 	font-size: 16px;
 	display: block;
-	color: #0091ff;
+	color: #007eff;
 	margin-bottom: 6px;
 }
 
@@ -2755,7 +2755,7 @@ ol {
 }
 
 .product__item .product__text .product__social a.other {
-	color: #adadad;
+	color: #c1c1c1;
 }
 
 .product__item .product__text .product__social a:last-child {
@@ -2805,7 +2805,7 @@ ol {
 .project__item .project__text span {
 	font-size: 16px;
 	display: block;
-	color: #0091ff;
+	color: #007eff;
 	margin-bottom: 5px;
 }
 
@@ -2844,7 +2844,7 @@ ol {
 }
 
 .project__item .project__text .project__social a.other {
-	color: #adadad;
+	color: #c1c1c1;
 }
 
 
@@ -3262,7 +3262,7 @@ ol {
 .blog__item .label {
     font-size: 15px;
     color: #ffffff;
-    background: #0091ff;
+    background: #007eff;
     padding: 5px 15px;
     display: inline-block;
     border-radius: 20px;
@@ -3340,7 +3340,7 @@ ol {
 .blog-section .all_label {
     font-size: 15px;
     color: #ffffff;
-    background: #0091ff;
+    background: #007eff;
     padding: 8px 20px;
     display: inline-block;
     border-radius: 20px;
@@ -3981,7 +3981,7 @@ ol {
 	line-height: 55px;
 	text-align: center;
 	font-size: 35px;
-	color: #0091ff;
+	color: #007eff;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -4196,7 +4196,7 @@ ol {
 .news__item .label {
     font-size: 15px;
     color: #ffffff;
-    background: #0091ff;
+    background: #007eff;
     padding: 8px 20px;
     display: inline-block;
     border-radius: 20px;
@@ -4389,7 +4389,7 @@ ol {
 
 @media only screen and (max-width: 767px) {
 	.header__logo {
-		max-width: 25%;
+        max-width: 28%;
 	}
 	.header__info {
 		display: none;
@@ -4419,7 +4419,7 @@ ol {
 	.canvas__open {
 		display: block;
 		font-size: 22px;
-		color: #000000;
+		color: #333a50;
 		height: 30px;
 		width: 30px;
 		line-height: 30px;

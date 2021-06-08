@@ -73,7 +73,7 @@
                     <div class="product__text">
                         <h5>tvcube▢</h5>
                         <span>tvcube.ru</span>
-                        <p>Смотрите трансляции и тв-каналы в прямом эфире</p>
+                        <p>Смотрите трансляции и ТВ-каналы в прямом эфире</p>
                         <div class="product__social">
                             <a href="https://tvcube.ru" class="other"><i class="fa fa-globe-americas"></i></a>
                         </div>
@@ -105,9 +105,10 @@
                     </div>
                     <div class="product__text">
                         <h5>6X6</h5>
-                        <span>Платформа Twitch</span>
+                        <span>Платформа tvcube▢</span>
                         <p>Развлекательный канал для молодой аудитории</p>
                         <div class="product__social">
+                            <a href="https://tvcube.ru" class="other"><i class="fa fa-globe-americas"></i></a>
                             <a href="https://twitch.tv/6x6tv" class="twitch"><i class="fa fa-twitch"></i></a>
                         </div>
                     </div>
@@ -120,9 +121,10 @@
                     </div>
                     <div class="product__text">
                         <h5>Q Channel</h5>
-                        <span>Платформа Twitch</span>
+                        <span>Платформа tvcube▢</span>
                         <p>Канал развлекательной тематики</p>
                         <div class="product__social">
+                            <a href="https://tvcube.ru" class="other"><i class="fa fa-globe-americas"></i></a>
                             <a href="https://twitch.tv/qchannel" class="twitch"><i class="fa fa-twitch"></i></a>
                         </div>
                     </div>
