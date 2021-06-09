@@ -8,8 +8,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="about__text">
-                        <h2>Тег "{{ $tag->title }}"</h2>
-                        <p>Все записи с тегом "{{ $tag->title }}"</p>
+                        <h2>{{ $tag->title }}</h2>
+                        <p>Записи соответствующие этому тегу</p>
                     </div>
                 </div>
             </div>

@@ -8,8 +8,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="about__text">
-                        <h2>Категория "{{ $category->title }}"</h2>
-                        <p>Все записи с категорией "{{ $category->title }}"</p>
+                        <h2>{{ $category->title }}</h2>
+                        <p>Записи соответствующие этой категории</p>
                     </div>
                 </div>
             </div>

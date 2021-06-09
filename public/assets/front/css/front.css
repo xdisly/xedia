@@ -1623,7 +1623,7 @@ ol {
 
 .header__logo {
 	padding-top: 30px;
-	max-width: 48%;
+	max-width: 40%;
 }
 
 .header__logo a {
@@ -4389,7 +4389,7 @@ ol {
 
 @media only screen and (max-width: 767px) {
 	.header__logo {
-        max-width: 28%;
+        max-width: 20%;
 	}
 	.header__info {
 		display: none;
