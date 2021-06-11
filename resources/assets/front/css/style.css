@@ -3155,7 +3155,7 @@ ol {
 
 @media only screen and (max-width: 767px) {
 	.header__logo {
-        max-width: 20%;
+        max-width: 25%;
 	}
 	.header__info {
 		display: none;

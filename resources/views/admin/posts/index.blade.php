@@ -37,7 +37,7 @@
                             <td>{{ $post->created_at }}</td>
                             <td>
                                 <a href="{{ route('posts.edit', ['post' => $post->id]) }}"
-                                   class="btn btn-info btn-sm float-left mr-1">
+                                   class="btn btn-primary btn-sm float-left mr-1">
                                     <i class="fas fa-pencil-alt"></i>
                                 </a>
                                 <form

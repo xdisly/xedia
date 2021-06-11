@@ -33,7 +33,7 @@
                             <td>{{ $tag->slug }}</td>
                             <td>
                                 <a href="{{ route('tags.edit', ['tag' => $tag->id]) }}"
-                                   class="btn btn-info btn-sm float-left mr-1">
+                                   class="btn btn-primary btn-sm float-left mr-1">
                                     <i class="fas fa-pencil-alt"></i>
                                 </a>
                                 <form

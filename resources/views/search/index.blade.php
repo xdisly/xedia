@@ -12,7 +12,7 @@
                         <form action="{{ route('search.searching') }}" method="get">
                             <div class="input-list">
                                 <input type="text" class="@error('s') is-invalid @enderror" id="text" name="s"
-                                       placeholder="Введите поисковой запрос и нажмите Enter" required>
+                                       placeholder="Введите поисковой запрос" required>
                             </div>
                         </form>
                     </div>
