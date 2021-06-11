@@ -11,6 +11,9 @@
             </div>
         </section>
         <section class="content">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-12">
             <div class="card">
                 <div class="card-body">
                     <a href="{{route('tags.create')}}" class="btn btn-primary mb-3">Добавить тег</a>
@@ -33,7 +36,7 @@
                             <td>{{ $tag->slug }}</td>
                             <td>
                                 <a href="{{ route('tags.edit', ['tag' => $tag->id]) }}"
-                                   class="btn btn-primary btn-sm float-left mr-1">
+                                   class="btn btn-primary btn-sm float-left mr-1 mb-1">
                                     <i class="fas fa-pencil-alt"></i>
                                 </a>
                                 <form
@@ -66,6 +69,9 @@
                         <li class="page-item"><a class="page-link" href="#">»</a></li>
                     </ul>
                     -->
+                </div>
+            </div>
+            </div>
                 </div>
             </div>
         </section>

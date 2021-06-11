@@ -594,8 +594,8 @@ pre code {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -7.5px;
-  margin-left: -7.5px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .no-gutters {
@@ -12235,8 +12235,7 @@ body.sidebar-collapse:not(.sidebar-mini-xs):not(.sidebar-mini-md):not(.sidebar-m
   body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer,
   body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header {
     transition: margin-left 0.3s ease-in-out;
-    margin-left: 275px;
-    margin-right: 25px;
+    margin-left: 250px;
   }
 }
 
@@ -12269,8 +12268,7 @@ body.sidebar-collapse:not(.sidebar-mini-xs):not(.sidebar-mini-md):not(.sidebar-m
   .sidebar-mini-md .main-footer,
   .sidebar-mini-md .main-header {
     transition: margin-left 0.3s ease-in-out;
-    margin-left: 275px;
-    margin-right: 25px;
+    margin-left: 250px;
   }
 }
 
@@ -12311,8 +12309,7 @@ body.sidebar-collapse:not(.sidebar-mini-xs):not(.sidebar-mini-md):not(.sidebar-m
   .sidebar-mini-xs .main-footer,
   .sidebar-mini-xs .main-header {
     transition: margin-left 0.3s ease-in-out;
-    margin-left: 275px;
-    margin-right: 25px;
+    margin-left: 250px;
   }
 }
 
@@ -14746,7 +14743,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
   .sidebar-mini.sidebar-collapse .content-wrapper,
   .sidebar-mini.sidebar-collapse .main-footer,
   .sidebar-mini.sidebar-collapse .main-header {
-    margin-left: 6.5rem !important;
+    margin-left: 4.6rem!important;
   }
   .sidebar-mini.sidebar-collapse .nav-sidebar .nav-header {
     display: none;
@@ -14876,7 +14873,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
   .sidebar-mini-md.sidebar-collapse .content-wrapper,
   .sidebar-mini-md.sidebar-collapse .main-footer,
   .sidebar-mini-md.sidebar-collapse .main-header {
-    margin-left: 6.5rem !important;
+    margin-left: 4.6rem!important;
   }
   .sidebar-mini-md.sidebar-collapse .nav-sidebar .nav-header {
     display: none;
@@ -15007,7 +15004,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 .sidebar-mini-xs.sidebar-collapse .content-wrapper,
 .sidebar-mini-xs.sidebar-collapse .main-footer,
 .sidebar-mini-xs.sidebar-collapse .main-header {
-  margin-left: 6.5rem !important;
+  margin-left: 4.6rem!important;
 }
 
 .sidebar-mini-xs.sidebar-collapse .nav-sidebar .nav-header {

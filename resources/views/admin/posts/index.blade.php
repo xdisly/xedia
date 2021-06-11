@@ -11,6 +11,9 @@
             </div>
         </section>
         <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
             <div class="card">
                 <div class="card-body">
                     <a href="{{route('posts.create')}}" class="btn btn-primary mb-3">Добавить запись</a>
@@ -37,7 +40,7 @@
                             <td>{{ $post->created_at }}</td>
                             <td>
                                 <a href="{{ route('posts.edit', ['post' => $post->id]) }}"
-                                   class="btn btn-primary btn-sm float-left mr-1">
+                                   class="btn btn-primary btn-sm float-left mr-1 mb-1">
                                     <i class="fas fa-pencil-alt"></i>
                                 </a>
                                 <form
@@ -72,6 +75,9 @@
                         <li class="page-item"><a class="page-link" href="#">»</a></li>
                     </ul>
                     -->
+                </div>
+            </div>
+                    </div>
                 </div>
             </div>
         </section>

@@ -11,6 +11,9 @@
             </div>
         </section>
         <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
             <div class="card">
                 <div class="card-body">
                     <a href="{{route('categories.create')}}" class="btn btn-primary mb-3">Добавить категорию</a>
@@ -33,7 +36,7 @@
                             <td>{{ $category->slug }}</td>
                             <td>
                                 <a href="{{ route('categories.edit', ['category' => $category->id]) }}"
-                                   class="btn btn-primary btn-sm float-left mr-1">
+                                   class="btn btn-primary btn-sm float-left mr-1 mb-1">
                                     <i class="fas fa-pencil-alt"></i>
                                 </a>
                                 <form
@@ -69,6 +72,6 @@
                     </ul>
                     -->
                 </div>
-            </div>
+            </div></div></div></div>
         </section>
 @endsection

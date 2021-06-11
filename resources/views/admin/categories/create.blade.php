@@ -11,6 +11,7 @@
             </div>
         </section>
         <section class="content">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
@@ -28,9 +29,9 @@
                                     <button type="submit" class="btn btn-primary">Сохранить</button>
                                 </div>
                             </form>
-
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
 @endsection
