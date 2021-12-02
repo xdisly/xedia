@@ -18,6 +18,7 @@
                                 <p>contact@xedia.ru</p>
                             </li>
                         </ul>
+                        <!--
                         <p>Или заполните форму обратной связи</p>
                         <form action="/contacts" method="post">
                             @csrf
@@ -28,6 +29,7 @@
                             <textarea id="text" name="text" placeholder="Сообщение" required></textarea>
                             <button type="submit" id="send" class="primary-btn">Отправить</button>
                         </form>
+                        !-->
                     </div>
                 </div>
             </div>
