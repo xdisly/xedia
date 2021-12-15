@@ -56,7 +56,7 @@
                         <div class="project__text">
                             <h5>tvcube▢</h5>
                             <span>tvcube.ru</span>
-                            <p>Смотрите трансляции и ТВ-каналы в прямом эфире</p>
+                            <p>Платформа для размещения ТВ-каналов и трансляций</p>
                             <div class="project__social">
                                 <a href="https://tvcube.ru" class="other"><i class="fa fa-globe-americas"></i></a>
                             </div>
@@ -113,7 +113,7 @@
                             <p>Канал развлекательной тематики</p>
                             <div class="project__social">
                                 <a href="https://tvcube.ru" class="other"><i class="fa fa-globe-americas"></i></a>
-                                <a href="https://twitch.tv/qchannel" class="twitch"><i class="fa fa-twitch"></i></a>
+                                <a href="https://catcast.tv/q_channel" class="twitch"><i class="fa fa-play"></i></a>
                             </div>
                         </div>
                     </div>
