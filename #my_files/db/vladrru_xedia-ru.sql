@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost:3306
--- Время создания: Июл 09 2021 г., 17:20
--- Версия сервера: 10.2.39-MariaDB
+-- Время создания: Дек 31 2021 г., 11:30
+-- Версия сервера: 10.2.41-MariaDB
 -- Версия PHP: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -107,8 +107,8 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`id`, `title`, `slug`, `description`, `content`, `category_id`, `view`, `thumbnail`, `created_at`, `updated_at`) VALUES
-(1, 'Запуск проекта \"TopSoundboard\"', 'zapusk-proekta-topsoundboard', 'Сообщаем о запуске нашего нового проекта.', '<p>30 марта 2019 г. запускается проект “TopSoundboard”.</p><p>Слушай и загружай топовые фразы стримеров и блогеров на <a href=\"https://topsoundboard.ru\">topsoundboard.ru</a></p><p>&nbsp;</p><figure class=\"image image-style-align-left\"><img src=\"/public/ckfinder/userfiles/images/tsb_400_200.png\"></figure>', 1, 23, 'images/2021-07-05/HDX3giehRmQXZDWQh4WEEa5CUWiY2PEdX8OQckm0.png', '2019-03-30 09:00:00', '2021-07-09 11:13:34'),
-(2, 'Запуск платформы \"tvcube▢\"', 'zapusk-platformy-tvcube', 'Xedia Project запускает платформу “tvcube▢”.', '<p>6 мая 2021 г. Xedia Project запускает платформу “tvcube▢”.</p><p>На платформе tvcube▢ в прямом эфире доступны к просмотру в наши медиапроекты, популярные телеканалы и трансляции.</p><p>Платформа \"tvcube▢\" доступна на <a href=\"https://tvcube.ru\">tvcube.ru</a></p><p>&nbsp;</p><figure class=\"image image-style-align-left\"><img src=\"/public/ckfinder/userfiles/images/tvcube_400_200.png\"></figure>', 1, 14, 'images/2021-07-05/YNr83Ur7xtktKfkbTUNkYOVoHBp92UGg6LWnYmJ5.png', '2021-05-06 09:00:00', '2021-07-09 11:13:35');
+(1, 'Запуск проекта \"TopSoundboard\"', 'zapusk-proekta-topsoundboard', 'Сообщаем о запуске нашего нового проекта.', '<p>30 марта 2019 г. запускается проект “TopSoundboard”.</p><p>Слушай и загружай топовые фразы стримеров и блогеров на <a href=\"https://topsoundboard.ru\">topsoundboard.ru</a></p><p>&nbsp;</p><figure class=\"image\"><img src=\"/public/ckfinder/userfiles/images/tsb_banner.png\"></figure>', 1, 171, 'images/2021-12-31/a6wG1L6zJtCkwYN3dOcQfobrKPbpBHZGeBOhVKDw.png', '2019-03-30 09:00:00', '2021-12-31 05:18:11'),
+(2, 'Запуск платформы tvcube▢', 'zapusk-platformy-tvcube', 'Запускается платформа для размещения популярных ТВ-каналов и трансляций.', '<p>31 декабря 2021 г. запускается платформа tvcube▢.</p><p>tvcube▢ — это платформа для размещения популярных ТВ-каналов и трансляций.</p><p>&nbsp;</p><figure class=\"image\"><img src=\"/public/ckfinder/userfiles/images/tvcube_banner.png\"></figure>', 1, 4, 'images/2021-12-31/Nwa4Mf1TohP4W6dgbl8uIRFERl1IWpwkWnwqyJ4p.png', '2021-12-31 09:00:00', '2021-12-31 05:18:27');
 
 -- --------------------------------------------------------
 
@@ -130,7 +130,8 @@ CREATE TABLE `post_tag` (
 
 INSERT INTO `post_tag` (`id`, `tag_id`, `post_id`, `created_at`, `updated_at`) VALUES
 (1, 1, 1, '2021-07-09 11:12:00', '2021-07-09 11:12:00'),
-(2, 2, 2, '2021-07-09 11:13:20', '2021-07-09 11:13:20');
+(3, 2, 3, '2021-12-31 05:09:35', '2021-12-31 05:09:35'),
+(4, 2, 2, '2021-12-31 05:15:42', '2021-12-31 05:15:42');
 
 -- --------------------------------------------------------
 
@@ -256,13 +257,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT для таблицы `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT для таблицы `post_tag`
 --
 ALTER TABLE `post_tag`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT для таблицы `tags`
