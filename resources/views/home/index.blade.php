@@ -59,7 +59,6 @@
                         <div class="product__social">
                             <a href="https://topsoundboard.ru" class="other"><i class="fa fa-globe-americas"></i></a>
                             <a href="https://vk.com/topsoundboard" class="vk"><i class="fa fa-vk"></i></a>
-                            <a href="https://instagram.com/topsoundboard" class="instagram"><i class="fa fa-instagram"></i></a>
                             <a href="https://t.me/topsoundboard" class="telegram"><i class="fab fa-telegram-plane"></i></a>
                         </div>
                     </div>
@@ -106,7 +105,7 @@
                     <div class="product__text">
                         <h5>6X6</h5>
                         <span>Платформа tvcube▢</span>
-                        <p>Развлекательный канал для молодой аудитории</p>
+                        <p>Развлекательный канал</p>
                         <div class="product__social">
                             <a href="https://tvcube.ru" class="other"><i class="fa fa-globe-americas"></i></a>
                             <a href="https://twitch.tv/6x6tv" class="twitch"><i class="fa fa-twitch"></i></a>
@@ -117,15 +116,15 @@
             <div class="col-lg-6 col-md-12">
                 <div class="product__item">
                     <div class="product__pic">
-                        <img src="{{ asset ('assets/front/img/logo/qchannel_logo.png') }}" alt="">
+                        <img src="{{ asset ('assets/front/img/logo/neotv_logo.png') }}" alt="">
                     </div>
                     <div class="product__text">
-                        <h5>Q Channel</h5>
+                        <h5>NEO TV</h5>
                         <span>Платформа tvcube▢</span>
-                        <p>Канал развлекательной тематики</p>
+                        <p>Развлекательно-информационный канал</p>
                         <div class="product__social">
                             <a href="https://tvcube.ru" class="other"><i class="fa fa-globe-americas"></i></a>
-                            <a href="https://catcast.tv/q_channel" class="twitch"><i class="fa fa-play"></i></a>
+                            <a href="https://catcast.tv/neo_tv" class="twitch"><i class="fa fa-play"></i></a>
                         </div>
                     </div>
                 </div>
