@@ -79,7 +79,7 @@
                         <h5>Интернет-проекты</h5>
                         <ul>
                             <li><a href="/">TopSoundboard</a></li>
-                            <li><a href="/">TV Cube</a></li>
+                            <li><a href="/">tvcube▢</a></li>
                         </ul>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                         <h5>Медиа-проекты</h5>
                         <ul>
                             <li><a href="/">6X6</a></li>
-                            <li><a href="/">Q Channel</a></li>
+                            <li><a href="/">NEO TV</a></li>
                         </ul>
                     </div>
                 </div>
